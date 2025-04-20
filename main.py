@@ -7,8 +7,8 @@ import cv2
 
 
 # Paths to recorded videos
-left_video_path = "Videos/left.mp4"  # Update with your file path
-right_video_path = "Videos/right.mp4"  # Update with your file path
+left_video_path = "Videos/left4.mp4"  # Update with your file path
+right_video_path = "Videos/right4.mp4"  # Update with your file path
 
 # Open video files
 print("[INFO] Opening video files...")
