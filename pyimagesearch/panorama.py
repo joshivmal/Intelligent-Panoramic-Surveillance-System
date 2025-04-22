@@ -29,7 +29,7 @@ class Stitcher:
         """ Detect keypoints and extract SIFT features """
         gray = cv2.cvtColor(image, cv2.COLOR_BGR2GRAY)
         
-        # FIX: Use SIFT correctly
+        # FIX: Use SIFT correctly (Scale Invariant feature transform)
         detector = cv2.SIFT_create()
         kps, features = detector.detectAndCompute(gray, None)
 
